@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        Write a code by using loop statement to give us this output:
+        1
+        2 3
+        4 5 6 
+        7 8 9 10
+        console.log(" ".repeat((i+1)*2 - (j%2 == i
+    -->
+</body>
+<script>
+    
+    
+    let n = 1;
+    let output = '';
+
+    for (let i = 1; i <= 4; i++) {
+    for (let j = 1; j <= i; j++) {
+        output += n + ' ';
+        n++;
+    }
+    output += '\n';
+    }
+
+    console.log(output);
+
+</script>
+</html>
