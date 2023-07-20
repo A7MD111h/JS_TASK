@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+const fruitsJson = '["apple", "banana", "orange", "grape", "mango"]';
+
+const fruitsArray = JSON.parse(fruitsJson);
+
+console.log(fruitsArray[0]); 
+console.log(fruitsArray[2]); 
+
+
+fruitsArray.push("pear");
+fruitsArray[1] = "kiwi";
+
+const updatedFruitsJson = JSON.stringify(fruitsArray);
+console.log(updatedFruitsJson);
+
+</script>
+</html>

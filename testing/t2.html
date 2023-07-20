@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+   
+        const weekdays =['saturday', 'sunday','monday','tuesday','wedesday','thursday','friday']
+        const weekends =['satrurday','sunday'] 
+
+        const workingDaysMap = weekdays.map( day => {
+            if (!weekends.includes(day)) {
+            return day
+            }else {
+            return day + " (weekend) "
+            }
+        })
+        console.log("working days", workingDaysMap); 
+
+        const workingDaysForeach = []
+        weekdays.forEach( day =>{
+        if ( !weekends.includes(day) ){
+            workingDaysForeach.push (day)
+        }
+    })
+   
+    console.log("working days", workingDaysForeach)
+    
+</script>
+</html>
