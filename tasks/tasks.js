@@ -3,23 +3,22 @@
 
 
 /*
-1
+1*/
+console.log(`
 Correct the syntax error
  [ 1,7,  9  ,45]
-
  ["Str" "alex","moh"]
-
 ['the','fox', 'over', lazy, 'dog' ]
-
-*/
+`)
 
 
 /*
-2
+2*/
+console.log(`
 What the index of "Banana","Tomato"
 var fruits=["Tomato","Banana","Watermelon"]
 fruits.pop()
-*/
+`)
 
 
 

@@ -1,4 +1,4 @@
-/*
+
 const form = document.getElementById('registrationForm');
 const firstNameInput = document.getElementById('firstName');
 const lastNameInput = document.getElementById('lastName');
@@ -89,14 +89,3 @@ function displaySuccessMessage(message) {
   successElement.classList.add('success-message');
   form.appendChild(successElement);
 }
-*/
-const form = document.getElementById("singUp")
-const firstNameInput = document.getElementById('firstName');
-const lastNameInput = document.getElementById('lastName');
-const dobInput = document.getElementById('dob');
-const emailInput = document.getElementById('email');
-const confirmEmailInput = document.getElementById('confirmEmail');
-const passwordInput = document.getElementById('password');
-const confirmPasswordInput = document.getElementById('confirmPassword');
-const mobileInput = document.getElementById('mobile');
-
